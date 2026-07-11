@@ -26,9 +26,13 @@ jobs:
       pull-requests: write
 
     secrets:
-      dockerhub-username: ${{ secrets.DOCKERHUB-USERNAME }}
+      # dockerhub-username: ${{ secrets.DOCKER_USERNAME }}
 
-      dockerhub-token: ${{ secrets.DOCKERHUB-TOKEN }}
+      # dockerhub-token: ${{ secrets.DOCKER_PASSWORD }}
+      
+        username: ${{ secrets.DOCKER_USERNAME }}
+
+     password: ${{ secrets.DOCKER_PASSWORD }}
 
     with:
       dockerhub-enable: true
