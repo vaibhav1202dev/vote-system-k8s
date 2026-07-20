@@ -223,11 +223,9 @@ Typical monitoring includes:
 * Git & GitHub
 
 ---
+---
 
 
 
 
 
-
-
-This project is intended for educational and portfolio purposes.
